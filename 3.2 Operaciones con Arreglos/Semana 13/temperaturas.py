@@ -1,5 +1,3 @@
-
-
 # Datos de temperaturas
 temperaturas = [
     [   # Ciudad 1
@@ -118,9 +116,8 @@ temperaturas = [
     ]
 ]
 def calcular_promedio_temperaturas(ciudad):
-    """
-    Calcula y muestra los promedios de temperaturas por semana y el promedio total de una ciudad.
-    """
+
+    #Calcula y muestra los promedios de temperaturas por semana y el promedio total de una ciudad.
     suma_total = 0  # Suma total de temperaturas de la ciudad
     num_dias = 0  # Contador de días
 
@@ -136,6 +133,6 @@ def calcular_promedio_temperaturas(ciudad):
 
     promedio_ciudad = suma_total / num_dias
     print(f"Promedio total de la ciudad {ciudad + 1} = {promedio_ciudad:.2f}°F\n")
-# Mostrar promedios de temperaturas para cada ciudad
+# Muestra promedios de temperaturas para cada ciudad
 for i in range(len(temperaturas)):
     calcular_promedio_temperaturas(i)
