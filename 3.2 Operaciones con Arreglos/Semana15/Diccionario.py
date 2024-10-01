@@ -20,5 +20,5 @@ if "telefono" not in informacion_personal:
 del informacion_personal["edad"]
 
 # Imprimir el diccionario
-for clave, valor in informacion_personal.items():
-    print(f"{clave}: {valor}")
+# Imprimir el diccionario resultante
+print(informacion_personal)
